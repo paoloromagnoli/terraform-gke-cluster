@@ -1,2 +1,3 @@
-project_id = "REPLACE_ME"
-region     = "us-central1"
+project_id  = "vra-cloud-cloud-assembly-poc"
+region      = "europe-west3"
+deploy_name = "vra-tf"

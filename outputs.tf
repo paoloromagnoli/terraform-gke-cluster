@@ -8,6 +8,11 @@ output "project_id" {
   description = "GCloud Project ID"
 }
 
+output "deploy_name" {
+  value       = var.deploy_name
+  description = "Name of the Deployment" 
+}
+
 output "kubernetes_cluster_name" {
   value       = google_container_cluster.primary.name
   description = "GKE Cluster Name"
