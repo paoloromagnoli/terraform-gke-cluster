@@ -47,7 +47,7 @@ resource "google_container_node_pool" "primary_nodes" {
 
     # preemptible  = true
     machine_type = "n1-standard-1"
-    tags         = ["gke-node", "${vra.deploy_name}-gke"]
+    tags         = ["gke-node", "${var.deploy_name}-gke"]
     metadata = {
       disable-legacy-endpoints = "true"
     }
