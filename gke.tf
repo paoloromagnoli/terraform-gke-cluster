@@ -42,7 +42,7 @@ resource "google_container_node_pool" "primary_nodes" {
     ]
 
     labels = {
-      env = vra.deploy_name
+      env = var.deploy_name
     }
 
     # preemptible  = true
